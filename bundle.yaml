@@ -1,11 +1,11 @@
 apiVersion: "1"
-version: "1"
+version: "2"
 id: "tadsga-ops-controller"
 description: "CloudBees CI configuration bundle for the tadsga ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/tadsga/ops-controller"
 jcasc:
   - "jenkins.yaml"
 plugins:
-  - "plugins.yaml"
+  - "plugins-catalog.yaml"
 items:
   - "items.yaml"
